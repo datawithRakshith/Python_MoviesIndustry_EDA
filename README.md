@@ -154,41 +154,41 @@ their average domestic gross per theater and win rate to see which of the two ha
 **Question 8 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
 
 ## Insights:
-1.The average profitable movie has a budget of around $82.25 million and yields a profit margin of 80%.
+1. The average profitable movie has a budget of around $82.25 million and yields a profit margin of 80%.
 
-2.Animation, Adventure, and Sci-Fi genres produce the highest net profits.
+2. Animation, Adventure, and Sci-Fi genres produce the highest net profits.
 Horror and Musical genres also show strong profit margins.
 
-3.Summer months (May–July) are most profitable for Animation.
+3. Summer months (May–July) are most profitable for Animation.
 
-4.Individuals with a VAR (Value Added Rating) score ≥ 1.0 consistently add significant value to movie success.
+4. Individuals with a VAR (Value Added Rating) score ≥ 1.0 consistently add significant value to movie success.
 
-5.The average Oscar-winning movie requires a minimum investment of $35.47 million.
+5. The average Oscar-winning movie requires a minimum investment of $35.47 million.
 
-6.There is minimal correlation between runtime and profitability.
+6. There is minimal correlation between runtime and profitability.
 G or PG ratings are most profitable for animation, while PG-13 works best for general audiences.
 
 
-7.Top studios achieve profit margins of 66% and net profits over $50 million per movie.
+7. Top studios achieve profit margins of 66% and net profits over $50 million per movie.
 
-8.Disney leads in domestic gross per theater and win rate. Their peak theater count averages at 3,818 per movie.
+8. Disney leads in domestic gross per theater and win rate. Their peak theater count averages at 3,818 per movie.
 
 ## Recommendations:
-1.Our Company should allocate $82.25 million per movie and aim for a minimum profit margin of 80% to ensure financial success.
+1. Our Company should allocate $82.25 million per movie and aim for a minimum profit margin of 80% to ensure financial success.
 
-2.Focus on producing Animation, Adventure, and Sci-Fi movies for maximum profitability. Consider exploring Horror and Musicals for high margin opportunities.
+2. Focus on producing Animation, Adventure, and Sci-Fi movies for maximum profitability. Consider exploring Horror and Musicals for high margin opportunities.
 
-3.Strategically release Animation movies in summer, and Adventure, Drama, and Comedy in November for optimal box office performance.
+3. Strategically release Animation movies in summer, and Adventure, Drama, and Comedy in November for optimal box office performance.
 
-4.Prioritize hiring actors and directors with a VAR score of 1.0 or higher to increase chances of higher revenue and audience engagement.
+4. Prioritize hiring actors and directors with a VAR score of 1.0 or higher to increase chances of higher revenue and audience engagement.
 
-5.Allocate at least $35.47 million in budget if the goal is to produce an award-winning film.
+5. Allocate at least $35.47 million in budget if the goal is to produce an award-winning film.
 
-6.Tailor movie ratings to the genre and audience (e.g., G/PG for kids, PG-13 for broader audiences). Don’t focus heavily on runtime for predicting financial outcomes.
+6. Tailor movie ratings to the genre and audience (e.g., G/PG for kids, PG-13 for broader audiences). Don’t focus heavily on runtime for predicting financial outcomes.
 
-7.Set a baseline target of 66% profit margin and $50M net profit per movie to remain competitive and sustainable in the industry.
+7. Set a baseline target of 66% profit margin and $50M net profit per movie to remain competitive and sustainable in the industry.
 
-8.Model operational strategy on Disney’s distribution practices. Target a release in up to 3,818 theaters for maximum exposure and return.
+8. Model operational strategy on Disney’s distribution practices. Target a release in up to 3,818 theaters for maximum exposure and return.
 
 
 
