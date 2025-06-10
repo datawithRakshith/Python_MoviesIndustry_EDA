@@ -52,8 +52,6 @@ We also take a look at the top 25 movies in terms of profit to understand their 
 
 ![image](https://github.com/user-attachments/assets/a3c1e4d9-194b-49b8-bdb1-6ab8ac9f44f6)
 
-**Question 1 Conclusion:** Our Company should budget \$82,250,000 for a movie and that budget should correlate with a profit margin of 80\%.
-
 ## Question 2: Which movie genres are most commonly produced and does quantity equate to higher net profits?
 
 We first count the number of movies in each genre and plot those results on a bar graph.
@@ -68,8 +66,6 @@ Using the same `groupby` method, we select the median net profit and profit marg
 
 Lastly, we look at the percent of net profit by genre. This informs us as to how Our Company should allocate their movie budget to various films.
 
-**Question 2 Conclusion:** Animation, adventure, and sci-Fi have the highest net profit of all genres. Analysis of profit margin shows that in addition animation, adventure, and sci-fi, horrors and musicals also have financial success.
-
 ## Question 3: What is the best time of the year to release a movie?
 
 We start by converting the dates from the `imdb_budgets_df` dataframe to a datetime object.  We then do a count by month to see the number of movies released in each month.
@@ -81,8 +77,6 @@ When grouping by month, we can select the `Net Profit` and `Profit Margin` colum
 Finally we plot the net profit by month for a small selection of genres.  We can see that there is a general trend amongst these genres for the profit in each month.
 
 ![image](https://github.com/user-attachments/assets/60202425-5ecb-49ac-8889-cc466fb30056)
-
-**Question 3 Conclusion:** We recommend that Our Company release the bulk of their movies, especially Animation, during the summer months (i.e. May-July). Adventure, Drama and Comedy movies would see similar success if released in November, but the recommendation remains to focus on summer.
 
 ## Question 4: Which actors and directors tend to add the most value?
 
@@ -109,9 +103,6 @@ We follow the same process with directors, except we filter by using 5 or more m
 ![image](https://github.com/user-attachments/assets/3b43a698-6431-4080-ab83-dc732f833983)
 
 
-
-**Question 4 Conclusion:** We recommend that Our Company focus their cast and crew search to individuals who consistently score at least 1.0 on the VAR score. We can, with a high level of confidence, conclude that these individuals will elevate the overall production.
-
 ## Question 5: How much money should you spend on a movie to win an Oscar?
 
 In this analysis we will join the `imdb_budgets_df` and `awards_df` dataframes so that we explore correlations between budgets and Oscar wins. We first look at a distribution of the budget for movies that have been Oscar-nominated.  We also look at the win rates for the nominated movies so that we can establish the minimum number of nominations required to secure at least one win. For this analysis the minimum number or nominations 
@@ -123,8 +114,6 @@ We use three nominations as the cutoff to filter our data and then look at the d
 
 ![image](https://github.com/user-attachments/assets/088a9aa0-65ae-4e47-9ab7-6dcef1ee4552)
 
-**Question 5 Conclusion:** Our Company should spend at least $35,465,000 in order to make an Oscar-winning movie.
-
 ## Question 6: What impact, if any, does runtime and movie rating have on Net Profit, Profit Margin and IMDb rating?
 
 To answer this question we will only focus on the 4 ratings: G, PG, PG-13, and R. We then count the ratings to see how many movies fall within each category.  From there we can examine the net profit and profit margin of genre to see which has the most financial success.
@@ -133,8 +122,6 @@ It's also important to see the net profits of each rating by genre. We first do 
 
 ![image](https://github.com/user-attachments/assets/f43da6d7-0f6c-4e5a-8f17-56ca2e49208f)
 
-**Question 6 Conclusion:** We recommend that Microsoft take into consideration the rating of the movie based on the genre and target audience. If making animation movies, it is wise to stick to a G or PG rating, otherwise PG-13 is the sweetspot. In terms of runtime, there is little correlation in terms of overall profitability.
-
 ## Question 7: Sticking to our analysis of Net Profit and Profit Margin, what should Microsoft determine to be the baseline for sustainable success?
 
 This analysis will require the use of the `studiobudgets_df dataframe`.  We first drop non-pertinent rows so that we can just focus on the studio performance. As we've done with other analyses, we use `groupby` and select the median as the primary measure of central tendency.
@@ -142,8 +129,6 @@ We only select the top 25 studios as we are concerned with both being financial 
 
 
 ![image](https://github.com/user-attachments/assets/55595be8-22b5-4ada-aaf2-225e962bfc72)
-
-**Question 7 Conclusion:** Our Company should aim for a profit margin of 66% and a net profit of slightly over 50 million per movie to compete with the top existing studios.
 
 ## Question 8: Based on the success of current competitors, which should we look to for best practices?
 
@@ -167,6 +152,44 @@ their average domestic gross per theater and win rate to see which of the two ha
 
 
 **Question 8 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+
+## Insights:
+1.The average profitable movie has a budget of around $82.25 million and yields a profit margin of 80%.
+
+2.Animation, Adventure, and Sci-Fi genres produce the highest net profits.
+Horror and Musical genres also show strong profit margins.
+
+3.Summer months (May–July) are most profitable for Animation.
+
+4.Individuals with a VAR (Value Added Rating) score ≥ 1.0 consistently add significant value to movie success.
+
+5.The average Oscar-winning movie requires a minimum investment of $35.47 million.
+
+6.There is minimal correlation between runtime and profitability.
+G or PG ratings are most profitable for animation, while PG-13 works best for general audiences.
+
+
+7.Top studios achieve profit margins of 66% and net profits over $50 million per movie.
+
+8.Disney leads in domestic gross per theater and win rate. Their peak theater count averages at 3,818 per movie.
+
+## Recommendations:
+1.Our Company should allocate $82.25 million per movie and aim for a minimum profit margin of 80% to ensure financial success.
+
+2.Focus on producing Animation, Adventure, and Sci-Fi movies for maximum profitability. Consider exploring Horror and Musicals for high margin opportunities.
+
+3.Strategically release Animation movies in summer, and Adventure, Drama, and Comedy in November for optimal box office performance.
+
+4.Prioritize hiring actors and directors with a VAR score of 1.0 or higher to increase chances of higher revenue and audience engagement.
+
+5.Allocate at least $35.47 million in budget if the goal is to produce an award-winning film.
+
+6.Tailor movie ratings to the genre and audience (e.g., G/PG for kids, PG-13 for broader audiences). Don’t focus heavily on runtime for predicting financial outcomes.
+
+7.Set a baseline target of 66% profit margin and $50M net profit per movie to remain competitive and sustainable in the industry.
+
+8.Model operational strategy on Disney’s distribution practices. Target a release in up to 3,818 theaters for maximum exposure and return.
+
 
 
 
