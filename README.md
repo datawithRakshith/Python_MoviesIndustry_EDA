@@ -1,6 +1,6 @@
-# Project Overview
+# Problem Statement:
 
-*Our hypothetical Company has announced that they would like to get into the movie industry. They will be creating a studio, however they have no knowledge of the movie industry. My goal is to collect, clean, and analyze movie data from a variety of sources so that I can provide recommendations to the company that will allow them to be successful in the movie industry.*
+*A hypothetical company plans to enter the movie industry by launching its own studio. However, the company lacks prior experience or domain knowledge in this field. The objective is to collect, clean, and analyze movie-related data from various sources to generate actionable insights and strategic recommendations. These insights will guide the company in making informed decisions to successfully establish and compete in the movie industry.*
 
 
 ## Python Libaries Used
